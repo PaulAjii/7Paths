@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>7Path</title>
+  <link rel="stylesheet" href="./assets/css/normalize.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="./assets/css/styles.css">
   <script defer src="./js/main.js"></script>
@@ -11,14 +12,13 @@
 <body>
   <!-- Navigation Menu and Hero -->
   <header>
-    <div class="container">
+    <div class="container header__container">
       <!-- Navigation Menu -->
       <nav>
-        <div class="logo">
-          <a href="#" class="logo__link">
+          <a href="#" class="logo">
             <img src="./assets/images/logo-04.png" alt="Logo Image">
           </a>
-        </div>
+
         <ul class="nav__menu">
           <li class="nav__item">
             <a href="#" class="nav__link">about</a>
@@ -35,6 +35,8 @@
           <li class="nav__item">
             <a href="#" class="nav__link">contact</a>
           </li>
+
+          <i class='close__btn bx bx-x'></i>
         </ul>
         <div class="nav__icons">
           <a href="#" class="product__cart">
@@ -51,18 +53,24 @@
   
       <!-- Hero Section -->
       <div class="hero__section">
-        <h2 class="subtitle">create your</h2>
+        <h2 class="subtitle">creat your</h2>
         <h1 class="title">custom website & UI</h1>
         <div class="btn__text">
           <p class="text">
             Choose customized designs and UI for your website and have it ready in 3-5 days.
           </p>
+
+          <a href="#" class="btn cta-btn">get started</a>
         </div>
-        <a href="#" class="btn cta-btn">get started</a>
       </div>
     </div>
 
     <!-- Images come here -->
+    <img src="./assets/images/Phone UI Mockup A.png" class="bg-img-1" alt="">
+    <!-- <div class="bg-img-1"></div> -->
+    <img src="./assets/images/Phone Mockup A 1.png" class="bg-img-2" alt="">
+    <img src="./assets/images/Phone UI Mockup B.png" class="bg-img-3" alt="">
+    <img src="./assets/images/Phone Mockup B 2.png" class="bg-img-4" alt="">
   </header>
 
   <!-- Main Body -->
@@ -82,6 +90,8 @@ When it comes to creating your project, we want to turn your vision into a reali
           request a free consult
         </a>
       </div>
+
+      <img src="./assets/images/Mike-n-Anna.png" class="bg-img-5" alt="">
     </section>
 
     <section class="section template__section">
