@@ -1,0 +1,6 @@
+:root {
+  --black-clr: hsla(0, 0%, 0%, 1);
+  --white-clr: hsla(0, 0%, 100%, 1);
+  --orange-clr: hsla(30, 100%, 50%, 1);
+  --gray-clr: hsla(270, 1%, 55%, 1);
+}
