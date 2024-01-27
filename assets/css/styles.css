@@ -237,7 +237,7 @@ nav {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.6875rem;
-  margin-block: 1rem 1.5rem;
+  margin-block: 1rem 2.5rem;
 }
 
 .about__section-cta-btn {
@@ -246,5 +246,5 @@ nav {
   font-weight: 600;
   font-size: 1rem;
   letter-spacing: 0;
-  margin-top: 5px;
+  margin-top: 20px;
 }
