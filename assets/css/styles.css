@@ -12,6 +12,7 @@
 body {
   overflow-x: hidden;
   font-family: "Encode Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
@@ -20,7 +21,7 @@ body {
 }
 
 .section {
-  padding: 5rem 0;
+  padding: 3rem 0 5rem;
 }
 
 a {
@@ -147,7 +148,8 @@ nav {
   }
 }
 
-.hero__section .btn__text .cta-btn {
+.hero__section .btn__text .cta-btn,
+.about__section-cta-btn {
   background-color: var(--green-clr);
   color: var(--white-clr);
   padding: 1.3rem 3rem;
@@ -194,6 +196,11 @@ nav {
   background-color: var(--orange-clr);
   text-align: center;
   color: var(--white-clr);
+  margin-top: 1rem;
+}
+
+.about__section-container {
+  padding-inline: 10px;
 }
 
 .bg-img-5 {
@@ -201,4 +208,43 @@ nav {
   left: 25%;
   width: 16.36263rem;
   height: 9.85275rem;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.about__section-text,
+.about__section-subtitle {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.about__section-subtitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 200%;
+}
+
+.about__section-subtitle span {
+  font-weight: 300;
+  margin-inline: 8px;
+}
+
+.about__section-text {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6875rem;
+  margin-block: 1rem 1.5rem;
+}
+
+.about__section-cta-btn {
+  color: var(--orange-clr);
+  background-color: var(--white-clr);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0;
+  margin-top: 5px;
 }
