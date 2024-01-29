@@ -70,7 +70,8 @@ img {
   transition: all .5s;
 }
 
-.close__btn {
+.close__btn,
+.nav__icons .bx-menu {
   display: none;
 }
 
@@ -103,6 +104,10 @@ img {
 
   .close__btn:hover {
     color: red;
+  }
+
+  .nav__icons .bx-menu {
+    display: block;
   }
 }
 
